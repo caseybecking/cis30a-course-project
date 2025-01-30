@@ -63,7 +63,6 @@ Might be misused by someone with bad intentions
 - Implement a user authentication mechanism for accessing logs.
 - Provide an optional real-time visualization of user responses during the session.
 - Introduce a configuration file to adjust program behavior (e.g., enabling/disabling logging or modifying the question structure).
-  
 
 ## Installation
 

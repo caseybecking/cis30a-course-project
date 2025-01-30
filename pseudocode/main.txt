@@ -1,0 +1,65 @@
+BEGIN
+
+DATA
+    class Logger:
+        keystrokes = []
+        filename = ""
+        consent = False
+        
+    class Questions:
+        questions = []
+        current_question = ""
+        user_name = ""
+
+MAIN
+    TRY
+        Initialize Logger, Questions
+        Load questions from questions.txt
+        
+        Display welcome message
+        IF NOT get_consent() THEN
+            Exit program
+        
+        username = Get username
+        filename = Generate unique filename with timestamp
+        
+        BEGIN key logging
+        
+        FOR each question in random questions
+            Display question
+            Record response
+            IF user wants to quit THEN
+                Break loop
+            
+        END key logging
+        
+        Compile log file
+        Display formatted results
+        Save to file
+        
+    CATCH Exceptions
+        Handle and display error message
+        Clean up resources
+        
+    FINALLY
+        Close files
+        Stop logging
+
+FUNCTIONS
+    get_consent():
+        Display consent info
+        Return user's choice
+        
+    generate_filename(username):
+        Return "keys_logged_" + username + timestamp
+        
+    record_keystrokes():
+        Listen for keyboard input
+        Add to keystroke list
+        
+    save_log():
+        Write keystrokes to file
+        Add timestamps
+        Format output
+
+END
