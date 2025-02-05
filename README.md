@@ -80,10 +80,10 @@ Might be misused by someone with bad intentions
 - Introduce a configuration file to adjust program behavior (e.g., enabling/disabling logging or modifying the question structure).
 
 ## Installation
-
+Nothing additonal needed to run this application
   
 
 ## Usage
-
+`python main.py`
 
 
