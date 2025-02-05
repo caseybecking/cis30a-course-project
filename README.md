@@ -1,6 +1,5 @@
 # CIS-30A Course Project
 ## Description
-
 Keylogging is, as the name suggests, the action of recording the keys entered on the keyboard on a computer. Keyloggers can be used for both legitimate and malicious purposes. Write a keylogger program that records the user input. You can use the Pynput library to control and monitor input devices such as mouse and keyboard. Additionally, you can use Listener API and Pythoncan to read data buffer and create log files of data that has been input by the users.
 
 - The program should entice the user to enter information.
@@ -21,19 +20,18 @@ Keylogging is, as the name suggests, the action of recording the keys entered on
 	- Integrate UI (optional): Bonus 30 points
 
 ## Requirements:
-
-Include comments throughout the program (10 points)
-Use variables and list to store and access data. You can use tuple or dictionary in place of a list (20 points)
-Use string object to display and control text output. (10 points)
-Define 2 or more functions and use function calls to execute tasks in the program. (30 points)
-Implement loop (for or while or both) (20 points)
-Include conditional statement (if or if-else or if-elif-else) (10 points)
-Use a non-built-in module, custom module. (20 points)
-Contains at least 2 classes and 1 sub-class (30 points)
-Includes 1 or more objects and 1 or more methods in each class. (20 points)
-Implement error detection using Python built-in exceptions. (10 points)
-Implement file operations and file output. (20 points)
-Integrate UI (optional): Bonus 30 points
+- Include comments throughout the program (10 points)
+- Use variables and list to store and access data. You can use tuple or dictionary in place of a list (20 points)
+- Use string object to display and control text output. (10 points)
+- Define 2 or more functions and use function calls to execute tasks in the program. (30 points)
+- Implement loop (for or while or both) (20 points)
+- Include conditional statement (if or if-else or if-elif-else) (10 points)
+- Use a non-built-in module, custom module. (20 points)
+- Contains at least 2 classes and 1 sub-class (30 points)
+- Includes 1 or more objects and 1 or more methods in each class. (20 points)
+- Implement error detection using Python built-in exceptions. (10 points)
+- Implement file operations and file output. (20 points)
+- Integrate UI (optional): Bonus 30 points
 
 
 ## Goals
@@ -58,19 +56,18 @@ The goal of this program is to create a user-interactive application that captur
 
 ## Target Audience
 As a cybersecurity professional, I developed this tool to help teams understand keylogging risks. It's meant to show how monitoring can work—and why it's crucial to get clear consent from users. Think of it like a live demonstration that teaches security teams about potential system vulnerabilities and ethical boundaries. By walking through real-world scenarios, we can better understand how information tracking works and why user privacy matters.
-
   
 
 ## Strengths/Weaknesses
 ### Strengths
-Gets clear user permission before logging
-Shows exactly what data is being collected
-Helps security teams understand monitoring risks
-Lets users see what's happening in real-time
+- Gets clear user permission before logging
+- Shows exactly what data is being collected
+- Helps security teams understand monitoring risks
+- Lets users see what's happening in real-time
 ### Weaknesses
-Keylogging can still feel invasive
-Could accidentally grab sensitive info
-Might be misused by someone with bad intentions
+- Keylogging can still feel invasive
+- Could accidentally grab sensitive info
+- Might be misused by someone with bad intentions
   
 
 ## Future Improvements
