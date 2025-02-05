@@ -20,6 +20,21 @@ Keylogging is, as the name suggests, the action of recording the keys entered on
 	- Implement file operations and file output. (20 points)
 	- Integrate UI (optional): Bonus 30 points
 
+## Requirements:
+
+Include comments throughout the program (10 points)
+Use variables and list to store and access data. You can use tuple or dictionary in place of a list (20 points)
+Use string object to display and control text output. (10 points)
+Define 2 or more functions and use function calls to execute tasks in the program. (30 points)
+Implement loop (for or while or both) (20 points)
+Include conditional statement (if or if-else or if-elif-else) (10 points)
+Use a non-built-in module, custom module. (20 points)
+Contains at least 2 classes and 1 sub-class (30 points)
+Includes 1 or more objects and 1 or more methods in each class. (20 points)
+Implement error detection using Python built-in exceptions. (10 points)
+Implement file operations and file output. (20 points)
+Integrate UI (optional): Bonus 30 points
+
 
 ## Goals
 The goal of this program is to create a user-interactive application that captures user inputs in a secure and user-consented manner. It will log these inputs for analysis, returning the results in a structured format.
