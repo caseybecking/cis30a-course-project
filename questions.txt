@@ -1,0 +1,10 @@
+What is your current role in cybersecurity?
+How many years of experience do you have with security tools?
+What types of security monitoring have you implemented before?
+Which security frameworks are you most familiar with?
+What are your biggest concerns about data privacy?
+How does your organization handle user monitoring?
+What security controls do you currently use?
+Have you experienced any security incidents involving insider threats?
+What data protection methods do you employ?
+How do you balance security with user privacy?
